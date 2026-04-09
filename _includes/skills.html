@@ -1,0 +1,17 @@
+<div class="container skills-container">
+  <h3>{{ site.skills_title | default: "Skills" }}</h3>
+  {% for group in site.data.skills %}
+    <div class="row clearfix skill-group">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 left-column">
+        <h4>{{ group.category }}</h4>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+        <ul class="skill-list">
+          {% for item in group.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+</div>

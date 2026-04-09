@@ -199,3 +199,26 @@ p.quote {
     margin-top: 1em;
   }
 }
+
+.skills-container {
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      display: inline-block;
+      background: #eef2ff;
+      color: #3730a3;
+      padding: 5px 12px;
+      margin: 0 6px 8px 0;
+      border-radius: 14px;
+      font-size: 0.88em;
+      font-weight: 500;
+    }
+  }
+  .skill-group {
+    margin-bottom: 18px;
+  }
+}

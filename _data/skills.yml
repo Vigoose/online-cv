@@ -1,0 +1,42 @@
+- category: AI & Agents
+  items:
+    - AI Agent Systems
+    - Claude Code
+    - Multi-Agent Orchestration
+    - MCP (Model Context Protocol)
+    - LLM Evaluation & Guardrails
+    - Retrieval-Augmented Generation
+    - Tool Use / Function Calling
+    - Prompt Engineering
+    - Anthropic API
+    - OpenAI API
+    - Human-in-the-Loop Systems
+
+- category: Languages
+  items:
+    - Python
+    - TypeScript
+    - Node.js
+    - Java
+    - Bash
+
+- category: Infrastructure
+  items:
+    - AWS
+    - Kubernetes
+    - DynamoDB
+    - Elasticsearch
+    - RabbitMQ
+    - Prometheus
+    - Postgres
+    - Redis
+
+- category: Practices
+  items:
+    - Distributed Systems
+    - Microservices
+    - Production AI Reliability
+    - Observability
+    - CI/CD
+    - Eval-Backed Iteration
+    - Context Engineering
