@@ -1,53 +1,33 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: vigoose/online-cv
 
 # Personal info
-name: Edward Xia
-title: IT Project Engineer
+name: Yuanye Xia
+title: Software Engineer @ Amazon · AI agent systems & Claude Code workflows
 email: vigoose@gmail.com
 phone: 201-783-9068
 website: https://vigoose.github.io/online-cv/
 
 # Social links
-twitter_username: vigoose
-github_username:  vigoose
-facebook_username: vigoose.xia
-instagram_username: vigoose
+github_username: vigoose
 linkedin_username: yuanyexia
 
-
 # About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: images/fullsizeoil_profile_photo2-426-edit-edit_002.JPG
-about_content: | # this will include new lines to allow paragraphs
-  Hi My name is Edward and I am a Software Engineer currently live in Redwood City, CA, below are some highlights of myself:
-   - Two Master degrees in Information Systems with Six year IT-specific projects experience. 
-   - Software Engineer in Full Stack development with strong problem-solving ability and business analysis skills.          
-    
-      
-  I like <mark>Challenging Work</mark> also a <mark>Beef Lover</mark>.
+about_content: |
+  I build production AI agent systems for developer workflows at Amazon. Multi-agent orchestration, persistent memory, MCP server integrations, RAG-backed retrieval, and the eval loops that keep it all honest in production.
 
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+  Power user of agentic coding tools. My daily work sits at the boundary between what current models can do reliably and where evals, validation loops, and human-in-the-loop feedback are still load-bearing.
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+  Currently most interested in <mark>AI dev tools</mark>, <mark>agentic coding platforms</mark>, and <mark>LLM eval-backed quality loops</mark>. Open to Senior IC roles in the SF Bay Area and remote.
 
-# Education Section
-# education_title: Education #(Use this to override about education section title)
+more_content: |
+  Before the AI work, a decade of backend and developer-platform engineering — Kubernetes microservices, RabbitMQ, Elasticsearch, Prometheus observability, and customer-facing detail-page features on Amazon Devices. The infra instinct is what makes the AI work hold up under load — production AI is mostly a reliability problem dressed up as a model problem.
 
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  Love basketball, music, anime, also a HardCore Gamer, interested in everything that might interesting, people empathy oriented.
+  On the side, I run 23 production cron pipelines behind a unified gateway with circuit breakers, Claude-driven self-heal, multi-provider LLM routing, and pre-send guardrails across every outbound channel.
 
 # Footer
 footer_show_references: true
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass

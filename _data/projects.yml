@@ -1,26 +1,24 @@
-# Project template
+- name: Claude Code Skills Portfolio
+  github: https://github.com/vigoose/claude-code-skills
+  quote: >
+    Studying, contributing to, and forking Claude Code skills end-to-end. Shipped upstream-ready fixes (claims-traceability validator + 30 passing tests) and a new upwork-proposal skill built on the same gated-workflow architecture.
+  description: |
+    - Added a claims-traceability validator to `ats-optimized-resume-agent-skill` that flags fabricated `skills.tools` entries and low-overlap bullets against a master resume. 177-line diff, 30/30 tests green (7 new). **— Python, pytest, JSON schema contract design**
+    - Forked the skill's gated-workflow architecture into a new `upwork-proposal` skill: same stage/gate shape, different output contract (plain-text proposal vs. DOCX). Includes a rate-sanity rule that flags uneconomic postings before drafting. **— Claude Code skill authoring, prompt engineering**
+    - Full demo run against a real Upwork posting with gap analysis, strategy note, and humanization pass. **— eval-backed iteration, context engineering**
+
+- name: Personal AI Infrastructure
+  quote: >
+    23 production cron pipelines behind a unified gateway with circuit breakers, Claude-driven self-heal, multi-provider LLM routing, and pre-send guardrails across every outbound channel.
+  description: |
+    - Unified job runner with pattern-matched self-heal pipeline that dispatches failures to Claude Sonnet for automatic diagnosis and fix. **— Node.js, Claude API, cron**
+    - Pre-send hook layer with secret scanning, rate limiting, and length truncation across Feishu / WeCom / Telegram channels. **— guardrails, observability**
+    - AI-filtered crawler pipeline: HN / GitHub / arXiv / forum intel aggregated, LLM-scored, and pushed to messaging. CDP-based browser automation for sites that block headless. **— Chrome DevTools Protocol, RAG, LanceDB vector store**
+
 - name: Survey Service Web Application
   link: https://floating-atoll-86805.herokuapp.com/
   github: https://github.com/Vigoose/FullStackEmaily
   quote: >
-    Full-stack web application from scratch which provides automatic survey generation and delivery features for paid users and deployed to cloud by Heroku.
-  description: | # this will include new lines to allow paragraphs
-    - Utilized React and Redux as front-end technologies to manage the interaction and display of the website, utilized NodeJS and Express as backend service to provides feature logics. **– React, React Router, Redux, NodeJS, Express**
-    - Implemented authentication workflows with Google OAuth authentication and Implemented credit cards handling and payment receiving from users with Stripe. **– Google OAuth, Stripe API**
-    - Extracted and loaded survey/feedback data into MongoDB to generate analysis report with charts and implemented data interaction with Webhook to awaits user’s feedback sending through click functions. **– MongoDB, Mongoose, Webhook**
-
-- name: Mobile App Development – Staff Management System
-  github: https://github.com/Vigoose/ReactNativeManager
-  quote: >
-    Designed and built a mobile app using React Native which provides multiple features such as adding/editing/firing people for employers in Both iOS and Android platforms.
-  description: | # this will include new lines to allow paragraphs
-    - Implemented user authentication using Firebase and navigation using React-Native-Router-Flux managed by Redux/Redux Thunk. **– React-Native, Redux, Redux Thunk, React-Native-Router-Flux**
-    - Utilized Redux workflow to manage states and implement quick re-render without notice. **– Redux Store**
-    - Optimized user experiences using firebase snapshot to keep user in touch with newest data and spinning/Modal to implement waiting states.
-
-- name: Sentimental Analysis of Tweets
-  description: | # this will include new lines to allow paragraphs
-    - Built a customized sentiment dictionary to analyze positive/negative attitudes for Toyota Camry model in one-year Tweets hash-tagged with ‘Toyota’ and ‘Camry’.
-    - Pre-processed about 500G raw data by word counting utilizing Hadoop MapReduce and loaded processed data about 10G into AWS S3. **– Hadoop MapReduce, AWS S3**
-    - Captured sentimental tweets from Twitter using Twitter API and Topsy API. **– Twitter API, Topsy API**
-    - Utilized AFINN word list for sentiment analysis and found out that ‘fuel’ is the most important weight to gain positive attitudes for Toyota Camry and it does a good job on fuel saving compared to other car brands.
+    Full-stack web application providing automatic survey generation and delivery with Stripe billing, deployed to Heroku.
+  description: |
+    - React / Redux front-end, Node.js / Express backend, Google OAuth, Stripe billing, MongoDB + Mongoose analytics. **— Full-stack web development**

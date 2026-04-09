@@ -1,39 +1,33 @@
-# Experience template
-- company: Oracle America
-  link: https://www.oracle.com/index.html
-  job_title: Software Engineer
-  dates: Jan 2020 - Now
-  description: | # this will include new lines to allow paragraphs
-    - Design and implement new features for Oracle’s core Private Cloud Appliance (PCA) functionality
-    - Implement, improve, and deploy component-level microservice via Kubernetes cluster, communicate upgrade information L1 API through RabbitMQ to user interface
-    - Integrate Oracle Sauron with visual log UI extracted from elastic search and Prometheus of deployed health check pods on Kubernetes Cluster
-    - Perform root cause analysis for bugs seen in QE and at customer installations
+- company: Amazon
+  link: https://www.amazon.com
+  job_title: Software Engineer — AI agent systems & Claude Code workflows
+  dates: August 2022 - Present
+  description: |
+    - Built a production AI agent system for developer workflows: persistent-memory Claude agents steered by CLAUDE.md documents, integrated with an internal MCP server exposing 20+ tools for ticketing, code search, and pipeline health; cron-driven autonomous pipelines, RAG-backed retrieval, and iterative human-in-the-loop validation — became the team's primary daily planning and triage tool.
+    - Designed and shipped a three-agent oncall automation system (Gatherer → Analyst → Briefing): cron-driven ticket ingestion, a structured knowledge base distilled from 2+ years of historical incidents covering the majority of recurring oncall patterns, automated KB-enriched triage comments, daily morning briefings, and proposed auto-close rules across multiple ticket categories — reducing manual oncall toil for the team.
+    - Led AI adoption across the org: standardized AI-assisted code review templates across 30+ pipelines, authored AI-driven development guides adopted by multiple widget teams, and designed an end-of-day session scanner that auto-generates structured Done / Next / Blockers standup updates from daily coding sessions.
+    - Audited and hardened an internal 72-operation TypeScript CLI (11 modules): fixed a P0 command injection (execSync → execFileSync), multipart form injection (→ URLSearchParams), infinite recursion in an HTTP signer, 45 argument-schema mismatches, and added token caching across 6 authentication flows.
+    - Shipped customer-facing Amazon Devices detail-page features across multiple widget and backend surfaces, using structured agent workflows with spec-driven prompts, function-calling tool schemas, and eval-backed validation loops.
 
+- company: Oracle America
+  link: https://www.oracle.com
+  job_title: Software Engineer
+  dates: October 2019 - August 2022
+  description: |
+    - Designed and shipped microservice components for Oracle's Private Cloud Appliance, deploying to a Kubernetes cluster and propagating upgrade status through a RabbitMQ-backed L1 API to the customer UI.
+    - Integrated Oracle Sauron health-check observability with Elasticsearch and Prometheus log extraction, surfacing cluster pod state through a unified visual log UI.
+    - Owned root-cause analysis for escalated bugs from QE and customer installations, driving fixes back through the microservice release cycle.
 
 - company: Sinopec USA Inc
-  link: global.epec.com
+  link: https://global.epec.com
   job_title: IT Project Engineer
-  dates: June 2014 - April 2019 (4 years 10 months)
-  quote: |
-    "EPEC" design, system integration and initiation. [EPEC.COM](https://global.epec.com) . 
-    As China's one of the largest oil and gas Company with over 30 yearsprofessional procurement experience and supply chain resources, Sinopectried to build and share a trading e-commerce platform establishing theconnection between US and China.  
-    Participating the entire development life cycle of EPEC global website.
-  description: | # this will include new lines to allow paragraphs
-    - Worked as a technical role to cooperate and implement the industrial e-commerce project and took responsibility of technologies implementation andbusiness requirement design.
-    - Designed and implemented workflows to integrate legacy systems (SAP/ERP, Material Management System and Global Supplier ManagementSystem) into a distributed e-commerce web application which supports EPEC's business.
-    - Optimized the website performance by adding CDN and browser cache andallocating servers in different locales.
-    - Performed unit testing and function testing in Java which covered over 80%code base. **– Unit Testing, Function Testing**
-    
+  dates: October 2016 - April 2019
+  description: |
+    - Localized and optimized a multi-region e-commerce web application (CDN, browser caching, regional server allocation), doubling page-load speed and raising Java unit and functional test coverage above 80%.
 
 - company: Holtzbrinck Publishing Group
   link: https://www.holtzbrinck.com/
-  job_title: Sortware Engineer
-  dates: Dec 2013 - May 2014 (7 months)    
-  description: | # this will include new lines to allow paragraphs
-    - Leading the entire system development process
-    - Business Process and workflow analysis, user requirement gathering
-    - ER-Diagram and database design.• Using MVC and entity framework develop complete system from backendto front-end.
-    - QA Testing and User cases documentation.
-    
- 
-    
+  job_title: Software Engineer
+  dates: December 2013 - June 2014
+  description: |
+    - Built an artist-and-publication tracking web application in C# MVC and Entity Framework, owning the full stack from database schema through UI.
